@@ -10,4 +10,4 @@ SDialog
 
 SDialog는 매우 쉽게 사용할 수 있습니다.
 
-[Download it](https://github.com/VodkaBears/Remodal/archive/master.zip)
+[Download it](https://github.com/siluniv/SDialog/archive/master.zip)
