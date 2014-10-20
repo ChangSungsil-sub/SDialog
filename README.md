@@ -10,4 +10,9 @@ SDialog
 
 SDialog는 매우 쉽게 사용할 수 있습니다.
 
-[Download it](https://github.com/siluniv/SDialog/archive/master.zip)
+먼저 SDialog를 다운로드 합니다. [Download it](https://github.com/siluniv/SDialog/archive/master.zip)
+
+다운로드를 완료하였으면 헤드 영역에 다음과 같이 HTML 태그를 추가합니다.
+```html
+<link rel="stylesheet" href="path/to/your/jquery.remodal.css">
+```
