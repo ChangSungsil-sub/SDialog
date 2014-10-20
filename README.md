@@ -6,4 +6,8 @@ SDialog
 
 ## 노트
 
-## 시작
+## 시작하기
+
+SDialog는 매우 쉽게 사용할 수 있습니다.
+
+[Download it](https://github.com/VodkaBears/Remodal/archive/master.zip)
