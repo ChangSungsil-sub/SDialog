@@ -27,3 +27,14 @@ SDialog는 매우 쉽게 사용할 수 있습니다.
 원하는 곳에서 `sdialog()` 메서드를 이용하여 간단하게 다이얼로그 창을 만들어 낼 수 있습니다.
 
 ## 사용자정의
+
+SDialog는 몇가지의 사용자 정의를 지원합니다.
+
+```html
+<script>
+var options = {
+  type:'message',
+  bgClick:true
+}
+</script>
+```
