@@ -17,7 +17,7 @@ SDialog는 매우 쉽게 사용할 수 있습니다.
 <link rel="stylesheet" href="path/to/your/jquery.remodal.css">
 ```
 
-다음으로 script를 연결해주어야 합니다. 헤드 영역이나 '</body>'태그 이전에 추가 해주어야 합니다.
+다음으로 script를 연결해주어야 합니다. 헤드 영역이나 `</body>`태그 이전에 추가 해주어야 합니다.
 ```html
 <script src="path/to/your/jquery.remodal.min.js"></script>
 ```
