@@ -41,7 +41,7 @@ SDialog는 세가지 형태의 사용방식을 지원합니다.
 사용자 정의를 추가하여 사용하는 방식으로 다이얼로그 형식을 바꾸는 등의 환경을 설정하여 사용할 수 있습니다.
 
 ```html
-<scirpt>
+<script>
 var options = {
   type:'message',
   bgClick:true,
@@ -58,7 +58,7 @@ sdialog('...', options);
 confirm 형식의 다이얼로그를 사용시에는 사용자가 콜백함수를 지정하여 사용할 수 있습니다. 이때 콜백함수의 인자로 `true` 또는 `false`의 값을 반환합니다.
 
 ```html
-<scirpt>
+<script>
 var options = {
   type:'confirm',
   bgClick:true,
