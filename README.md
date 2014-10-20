@@ -37,6 +37,6 @@ var options = {
   bgClick:true
 }
 
-sdialog('사용자 정의 문자열', options);
+sdialog('사용자 정의 문자열', options, function(){ ... });
 </script>
 ```
