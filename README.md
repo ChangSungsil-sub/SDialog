@@ -14,12 +14,12 @@ SDialog는 매우 쉽게 사용할 수 있습니다.
 
 다운로드를 완료하였으면 헤드 영역에 다음과 같이 HTML 태그를 추가합니다.
 ```html
-<link rel="stylesheet" href="path/to/your/jquery.remodal.css">
+<link rel="stylesheet" href="path/to/your/sdialog.css">
 ```
 
 다음으로 script를 연결해주어야 합니다. 헤드 영역이나 `</body>`태그 이전에 추가 해주어야 합니다.
 ```html
-<script src="path/to/your/jquery.remodal.min.js"></script>
+<script src="path/to/your/sdialog.js"></script>
 ```
 
 스타일과 스크립트를 연결하였으면 모든 준비가 끝났습니다.
