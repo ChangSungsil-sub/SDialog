@@ -30,18 +30,50 @@ SDialog는 매우 쉽게 사용할 수 있습니다.
 
 SDialog는 세가지 형태의 사용방식을 지원합니다.
 
-#### 기본 사용법
+#### 1. 기본 사용법
 `sdialog('사용자가 작성하려는 문자열을 입력하면 됩니다.')`
 
 메서드의 파라미터를 하나만 받는 사용법으로 기본으로 정의된 형식을 사용합니다.
 
-#### 사용자 정의를 추가하여 사용
-`sdialog()`
+#### 2. 사용자 정의를 추가하여 사용
+`sdialog('...', options)`
 
+사용자 정의를 추가하여 사용하는 방식으로 다이얼로그 형식을 바꾸는 등의 환경을 설정하여 사용할 수 있습니다.
 
+```html
+<scirpt>
+var options = {
+  type:'message',
+  bgClick:true,
+  ...
+}
 
-#### callBack 함수 사용
-`sdialog()`
+sdialog('...', options);
+</script>
+```
+
+#### 3. callBack 함수 사용
+`sdialog('...', options, callBack())`
+
+confirm 형식의 다이얼로그를 사용시에는 사용자가 콜백함수를 지정하여 사용할 수 있습니다. 이때 콜백함수의 인자로 `true` 또는 `false`의 값을 반환합니다.
+
+```html
+<scirpt>
+var options = {
+  type:'confirm',
+  bgClick:true,
+  ...
+}
+
+sdialog('...', options, function(result){
+  if(result){
+    ...
+  }else{
+    ...
+  }
+});
+</script>
+```
 
 
 
