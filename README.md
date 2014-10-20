@@ -36,5 +36,7 @@ var options = {
   type:'message',
   bgClick:true
 }
+
+sdialog('사용자 정의 문자열', options);
 </script>
 ```
